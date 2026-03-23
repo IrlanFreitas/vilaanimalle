@@ -1,0 +1,89 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+:root {
+  /* === Cores Principais === */
+  --amarelo: #f2b705;
+  --amarelo-dark: #d9a204;
+  --amarelo-light: #fdf6e0;
+  --amarelo-mid: #f5cc4d;
+  --verde-escuro: #2d5016;
+  --verde-escuro-dark: #1e3a0e;
+  --verde-escuro-light: #e8f0e3;
+  --verde-acento: #5a8c2a;
+  --verde-acento-dark: #467020;
+  --verde-acento-light: #edf4e6;
+
+  /* === Neutros === */
+  --white: #ffffff;
+  --off-white: #f5f5f0;
+  --ink: #1c1917;
+  --ink-70: rgba(28, 25, 23, 0.7);
+  --ink-40: rgba(28, 25, 23, 0.4);
+  --ink-12: rgba(28, 25, 23, 0.12);
+  --ink-10: rgba(28, 25, 23, 0.1);
+  --ink-6: rgba(28, 25, 23, 0.06);
+
+  /* === Border Radius === */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 40px;
+  --radius-full: 999px;
+
+  /* === Sombras === */
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-header: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-opensans);
+  color: var(--verde-escuro);
+  background: var(--white);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-nunito);
+  color: var(--verde-escuro);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--verde-acento);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
