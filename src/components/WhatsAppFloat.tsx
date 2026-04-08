@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import { MessageCircle } from 'lucide-react'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.'
+const WHATSAPP_URL = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.'
 
 export default function WhatsAppFloat() {
   return (

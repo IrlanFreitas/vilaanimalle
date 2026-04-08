@@ -271,7 +271,7 @@ export default function BlogPage() {
                   Fale diretamente com a Dra. Mariana e agende sua consulta.
                 </p>
                 <a
-                  href="https://wa.me/5571999999999?text=Ol%C3%A1!%20Vim%20pelo%20blog%20e%20gostaria%20de%20agendar%20uma%20consulta."
+                  href="https://wa.me/5571982021139?text=Ol%C3%A1!%20Vim%20pelo%20blog%20e%20gostaria%20de%20agendar%20uma%20consulta."
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

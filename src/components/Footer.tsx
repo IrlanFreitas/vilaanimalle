@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 import { MapPin, Phone, Mail, Clock, Instagram, MessageCircle } from 'lucide-react'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.'
+const WHATSAPP_URL = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.'
 
 export default function Footer() {
   return (
@@ -65,7 +65,7 @@ export default function Footer() {
                 { to: '/', label: 'Início' },
                 { to: '/servicos', label: 'Serviços' },
                 { to: '/produtos', label: 'Produtos' },
-                { to: '/sobre', label: 'Sobre Nós' },
+                { to: '/sobre', label: 'Sobre nós' },
                 { to: '/blog', label: 'Blog' },
                 { to: '/contato', label: 'Contato' },
               ].map(({ to, label }) => (
@@ -96,12 +96,12 @@ export default function Footer() {
             </h3>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 10 }}>
               {[
-                'Consulta Clínica',
-                'Medicina Preventiva',
+                'Consulta clínica',
+                'Medicina preventiva',
                 'Dermatologia',
-                'Banho e Tosa',
+                'Banho e tosa',
                 'Ultrassonografia',
-                'Vacinas Importadas',
+                'Vacinas importadas',
               ].map(service => (
                 <li key={service}>
                   <Link
@@ -132,18 +132,18 @@ export default function Footer() {
               <li style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
                 <MapPin size={16} style={{ color: 'var(--amarelo)', flexShrink: 0, marginTop: 2 }} />
                 <span style={{ fontFamily: 'var(--font-opensans)', fontSize: 14, color: 'rgba(255,255,255,0.7)', lineHeight: 1.5 }}>
-                  Salvador, Bahia
+                  R. Dr. Mário Rego dos Santos, 921 - Lojas A e B - Vila Laura, Salvador - BA, 40270-010
                 </span>
               </li>
               <li style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
                 <Phone size={16} style={{ color: 'var(--amarelo)', flexShrink: 0 }} />
                 <a
-                  href="tel:+5571999999999"
+                  href="tel:+5571982021139"
                   style={{ fontFamily: 'var(--font-opensans)', fontSize: 14, color: 'rgba(255,255,255,0.7)', textDecoration: 'none', transition: 'color 200ms' }}
                   onMouseEnter={e => (e.currentTarget.style.color = 'var(--amarelo)')}
                   onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.7)')}
                 >
-                  (71) 99999-9999
+                  (71) 98202-1139
                 </a>
               </li>
               <li style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
@@ -187,7 +187,7 @@ export default function Footer() {
               onMouseLeave={e => (e.currentTarget.style.background = 'var(--amarelo)')}
             >
               <MessageCircle size={15} />
-              Fale pelo WhatsApp
+              Fale pelo whatsapp
             </a>
           </div>
         </div>
@@ -208,7 +208,7 @@ export default function Footer() {
             © 2026 Vila Animalle Pet Care. Todos os direitos reservados.
           </p>
           <div style={{ display: 'flex', gap: 16 }}>
-            {['Política de Privacidade', 'Política de Cookies'].map(item => (
+            {['Política de privacidade', 'Política de cookies'].map(item => (
               <a
                 key={item}
                 href="#"

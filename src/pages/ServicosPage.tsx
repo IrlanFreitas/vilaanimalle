@@ -5,12 +5,12 @@ import { Eyebrow } from '../components/Eyebrow'
 import { ImageWithFallback } from '../figma/ImageWithFallback'
 import CTAFinal from '../components/CTAFinal'
 
-const WHATSAPP_BASE = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20'
+const WHATSAPP_BASE = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20'
 
 const clinicalServices = [
   {
     icon: <Stethoscope size={28} />,
-    title: 'Consultas Clínicas',
+    title: 'Consultas clínicas',
     description: 'Consultas humanizadas com tempo suficiente para entender toda a rotina e histórico do seu pet. Clínica geral e especialista.',
     image: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=600&q=80',
     waMsg: 'uma%20consulta%20cl%C3%ADnica.',
@@ -24,14 +24,14 @@ const clinicalServices = [
   },
   {
     icon: <Shield size={28} />,
-    title: 'Exames de Sangue',
+    title: 'Exames de sangue',
     description: 'Hemograma completo, bioquímica sérica e outros exames laboratoriais para diagnóstico preciso e prevenção.',
     image: 'https://images.unsplash.com/photo-1576671081837-49000212a370?w=600&q=80',
     waMsg: 'exames%20de%20sangue.',
   },
   {
     icon: <Syringe size={28} />,
-    title: 'Vacinas Importadas',
+    title: 'Vacinas importadas',
     description: 'Programa completo de vacinação com vacinas importadas de alta qualidade para máxima proteção do seu pet.',
     image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80',
     waMsg: 'informa%C3%A7%C3%B5es%20sobre%20vacinas.',
@@ -41,7 +41,7 @@ const clinicalServices = [
 const esteticaServices = [
   {
     icon: <Scissors size={28} />,
-    title: 'Banho e Tosa',
+    title: 'Banho e tosa',
     description: 'Banho terapêutico e tosa profissional com produtos de qualidade, adaptados ao tipo de pelagem do seu pet.',
     image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&q=80',
     waMsg: 'um%20banho%20e%20tosa.',
@@ -164,7 +164,7 @@ export default function ServicosPage() {
               color: 'var(--verde-escuro)',
               marginBottom: 16,
             }}>
-              Nossos Serviços
+              Nossos serviços
             </h1>
             <p style={{
               fontFamily: 'var(--font-opensans)',
@@ -196,7 +196,7 @@ export default function ServicosPage() {
               fontSize: 'clamp(26px, 5vw, 36px)',
               color: 'var(--verde-escuro)',
             }}>
-              Serviços Clínicos
+              Serviços clínicos
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
@@ -224,7 +224,7 @@ export default function ServicosPage() {
               fontSize: 'clamp(26px, 5vw, 36px)',
               color: 'var(--verde-escuro)',
             }}>
-              Serviços de Estética
+              Serviços de estética
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

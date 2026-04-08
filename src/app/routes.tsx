@@ -7,8 +7,8 @@ const ServicosPage = lazy(() => import('../pages/ServicosPage'))
 const ProdutosPage = lazy(() => import('../pages/ProdutosPage'))
 const SobrePage = lazy(() => import('../pages/SobrePage'))
 const ContatoPage = lazy(() => import('../pages/ContatoPage'))
-const BlogPage = lazy(() => import('../pages/BlogPage'))
-const BlogPostPage = lazy(() => import('../pages/BlogPostPage'))
+// const BlogPage = lazy(() => import('../pages/BlogPage'))
+// const BlogPostPage = lazy(() => import('../pages/BlogPostPage'))
 
 function PageLoader() {
   return (
@@ -51,14 +51,14 @@ export const routes: RouteObject[] = [
         path: 'contato',
         element: <Suspense fallback={<PageLoader />}><ContatoPage /></Suspense>,
       },
-      {
-        path: 'blog',
-        element: <Suspense fallback={<PageLoader />}><BlogPage /></Suspense>,
-      },
-      {
-        path: 'blog/:slug',
-        element: <Suspense fallback={<PageLoader />}><BlogPostPage /></Suspense>,
-      },
+      // {
+      //   path: 'blog',
+      //   element: <Suspense fallback={<PageLoader />}><BlogPage /></Suspense>,
+      // },
+      // {
+      //   path: 'blog/:slug',
+      //   element: <Suspense fallback={<PageLoader />}><BlogPostPage /></Suspense>,
+      // },
     ],
   },
 ]

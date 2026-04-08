@@ -278,7 +278,7 @@ export default function BlogPostPage() {
                   A Dra. Mariana pode ajudar. Agende sua consulta pelo WhatsApp.
                 </p>
                 <a
-                  href="https://wa.me/5571999999999?text=Ol%C3%A1!%20Li%20um%20artigo%20no%20blog%20da%20Vila%20Animalle%20e%20gostaria%20de%20agendar%20uma%20consulta."
+                  href="https://wa.me/5571982021139?text=Ol%C3%A1!%20Li%20um%20artigo%20no%20blog%20da%20Vila%20Animalle%20e%20gostaria%20de%20agendar%20uma%20consulta."
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

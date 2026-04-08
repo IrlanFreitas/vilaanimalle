@@ -5,7 +5,7 @@ import { Eyebrow } from '../components/Eyebrow'
 import { ImageWithFallback } from '../figma/ImageWithFallback'
 import CTAFinal from '../components/CTAFinal'
 
-const WHATSAPP_BASE = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20disponibilidade%20de%20'
+const WHATSAPP_BASE = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20disponibilidade%20de%20'
 
 const timelineSteps = [
   {
@@ -357,7 +357,7 @@ export default function ProdutosPage() {
             Dúvidas sobre algum produto? A Dra. Mariana pode indicar o tratamento ideal para o seu pet.
           </p>
           <a
-            href="https://wa.me/5571999999999?text=Ol%C3%A1!%20Meu%20pet%20tem%20problemas%20de%20pele%20e%20gostaria%20de%20conhecer%20a%20linha%20natural."
+            href="https://wa.me/5571982021139?text=Ol%C3%A1!%20Meu%20pet%20tem%20problemas%20de%20pele%20e%20gostaria%20de%20conhecer%20a%20linha%20natural."
             target="_blank"
             rel="noopener noreferrer"
             style={{

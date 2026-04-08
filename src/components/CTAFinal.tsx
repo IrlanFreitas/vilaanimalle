@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import { MessageCircle } from 'lucide-react'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20Dra.%20Mariana%20da%20Vila%20Animalle.'
+const WHATSAPP_URL = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20Dra.%20Mariana%20da%20Vila%20Animalle.'
 
 export default function CTAFinal() {
   return (
@@ -35,7 +35,8 @@ export default function CTAFinal() {
             maxWidth: 560,
             margin: '0 auto 32px',
           }}>
-            Endereço: Salvador, Bahia. Horário de funcionamento: Segunda a Sexta, em horários flexíveis para sua rotina.
+            Endereço: R. Dr. Mário Rego dos Santos, 921 - Lojas A e B - Vila Laura, Salvador - BA, 40270-010 <br/>
+            Horário de funcionamento: Segunda a Sexta, em horários flexíveis para sua rotina.
           </p>
           <a
             href={WHATSAPP_URL}
@@ -60,7 +61,7 @@ export default function CTAFinal() {
             onMouseLeave={e => (e.currentTarget.style.background = 'var(--verde-escuro)')}
           >
             <MessageCircle size={20} />
-            Falar com a Dra. Mariana agora no WhatsApp
+            Falar com a Dra. Mariana agora no whatsapp
           </a>
         </motion.div>
       </div>

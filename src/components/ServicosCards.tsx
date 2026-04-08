@@ -3,12 +3,12 @@ import { motion } from 'motion/react'
 import { Stethoscope, ShieldCheck, Leaf, ArrowRight } from 'lucide-react'
 import { Eyebrow } from './Eyebrow'
 
-const WHATSAPP_BASE = 'https://wa.me/5571999999999?text='
+const WHATSAPP_BASE = 'https://wa.me/5571982021139?text='
 
 const services = [
   {
     icon: <Stethoscope size={32} style={{ color: 'var(--amarelo)' }} />,
-    title: 'Consulta Clínica Humanizada',
+    title: 'Consulta clínica humanizada',
     description: 'Realizamos consultas mais longas e detalhadas para entender o contexto familiar e as necessidades reais do pet e do tutor, garantindo assertividade no diagnóstico.',
     ctaText: 'Quero um atendimento humanizado',
     ctaHref: WHATSAPP_BASE + 'Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20cl%C3%ADnica%20humanizada.',
@@ -16,7 +16,7 @@ const services = [
   },
   {
     icon: <ShieldCheck size={32} style={{ color: 'var(--amarelo)' }} />,
-    title: 'Medicina Preventiva',
+    title: 'Medicina preventiva',
     description: 'Antecipamos problemas para evitar o agravamento de doenças e custos altos com tratamentos emergenciais, focando sempre na longevidade animal.',
     ctaText: 'Proteger a saúde do meu pet',
     ctaHref: WHATSAPP_BASE + 'Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20medicina%20preventiva%20para%20meu%20pet.',
@@ -24,7 +24,7 @@ const services = [
   },
   {
     icon: <Leaf size={32} style={{ color: 'var(--amarelo)' }} />,
-    title: 'Dermatologia e Linha Natural Exclusiva',
+    title: 'Dermatologia e linha natural exclusiva',
     description: 'Tratamento especializado para pets com problemas de pele e otites, utilizando uma linha natural exclusiva desenvolvida para oferecer alívio e cura sem agredir o organismo.',
     ctaText: 'Conhecer a linha natural',
     ctaHref: '/produtos',

@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react'
 import { Eyebrow } from '../components/Eyebrow'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20Dra.%20Mariana%20da%20Vila%20Animalle.'
+const WHATSAPP_URL = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20Dra.%20Mariana%20da%20Vila%20Animalle.'
 
 export default function ContatoPage() {
   const [form, setForm] = useState({ nome: '', email: '', telefone: '', mensagem: '', lgpd: false })
@@ -113,8 +113,8 @@ export default function ContatoPage() {
                     </div>
                     <div>
                       <div style={{ fontFamily: 'var(--font-nunito)', fontWeight: 600, fontSize: 15, color: 'var(--verde-escuro)', marginBottom: 2 }}>Telefone</div>
-                      <a href="tel:+5571999999999" style={{ fontFamily: 'var(--font-opensans)', fontSize: 14, color: 'var(--verde-acento)', textDecoration: 'none' }}>
-                        (71) 99999-9999
+                      <a href="tel:+5571982021139" style={{ fontFamily: 'var(--font-opensans)', fontSize: 14, color: 'var(--verde-acento)', textDecoration: 'none' }}>
+                        (71) 98202-1139
                       </a>
                     </div>
                   </li>

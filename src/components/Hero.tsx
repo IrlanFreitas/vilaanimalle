@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react'
 import { Eyebrow } from './Eyebrow'
 import { ImageWithFallback } from '../figma/ImageWithFallback'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20Vila%20Animalle.'
+const WHATSAPP_URL = 'https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20Vila%20Animalle.'
 
 export default function Hero() {
   return (

@@ -4,15 +4,15 @@ import { ImageWithFallback } from '../figma/ImageWithFallback'
 
 const blocks = [
   {
-    title: 'Experiência Comprovada',
+    title: 'Experiência comprovada',
     highlight: '+3.000',
-    highlightLabel: 'atendimentos realizados',
+    highlightLabel: 'Atendimentos realizados',
     description: 'com carinho e dedicação em Salvador. Cada consulta é uma oportunidade de fazer a diferença na vida do seu pet e da sua família.',
     image: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=600&q=80',
     alt: 'Dra. Mariana em seu consultório',
   },
   {
-    title: 'Escuta Ativa',
+    title: 'Escuta ativa',
     highlight: 'Consultas sem pressa',
     highlightLabel: '',
     description: 'para que você possa tirar todas as suas dúvidas e se sentir segura. Aqui, o tutor também faz parte do processo de cuidado.',
@@ -21,10 +21,10 @@ const blocks = [
     reverse: true,
   },
   {
-    title: 'Foco em Longevidade',
+    title: 'Foco em longevidade',
     highlight: 'Viva mais e melhor',
     highlightLabel: '',
-    description: 'Não tratamos apenas sintomas; trabalhamos para que seu pet viva mais e melhor ao seu lado. Medicina preventiva como filosofia de vida.',
+    description: 'não tratamos apenas sintomas; trabalhamos para que seu pet viva mais e melhor ao seu lado. Medicina preventiva como filosofia de vida.',
     image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80',
     alt: 'Pet saudável e feliz',
   },

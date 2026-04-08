@@ -14,7 +14,7 @@ export default function Home() {
           '@type': 'WebSite',
           'name': 'Vila Animalle Pet Care',
           'url': 'https://vilaanimalle.com.br',
-          'description': 'Clínica veterinária em Salvador, Bahia. Medicina preventiva, consultas humanizadas e linha dermatolólogica natural exclusiva.',
+          'description': 'Clínica veterinária na Vila Laura, Salvador - BA. Medicina preventiva, consultas humanizadas e linha dermatolólogica natural exclusiva.',
         }),
       }} />
       <Hero />

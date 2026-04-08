@@ -286,7 +286,7 @@ export default function SobrePage() {
             Quer conhecer a clínica? Venha nos visitar!
           </p>
           <a
-            href="https://wa.me/5571999999999?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20a%20Vila%20Animalle%20e%20agendar%20uma%20visita."
+            href="https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20a%20Vila%20Animalle%20e%20agendar%20uma%20visita."
             target="_blank"
             rel="noopener noreferrer"
             style={{
