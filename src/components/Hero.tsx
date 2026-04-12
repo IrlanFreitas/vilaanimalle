@@ -40,9 +40,11 @@ export default function Hero() {
                 marginBottom: 20,
               }}
             >
-              Um porto seguro para a saúde e a{' '}
-              <span style={{ color: 'var(--amarelo)' }}>longevidade</span>{' '}
-              do seu pet em Salvador.
+              {/* Um porto seguro para a saúde e a{' '}
+              longevidade{' '}
+              do seu pet em Salvador. */}
+
+              Vila Animalle Pet Care | <span style={{ color: 'var(--amarelo)' }}>Clínica veterinária</span> e pet shop na Vila Laura
             </motion.h1>
 
             <motion.p

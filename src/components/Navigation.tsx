@@ -66,28 +66,14 @@ export default function Navigation() {
             className="flex items-center gap-2"
             aria-label="Vila Animalle - Início"
           >
-            <div
-              style={{
-                width: 44,
-                height: 44,
-                background: "var(--amarelo)",
-                borderRadius: "var(--radius-md)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexShrink: 0,
-              }}
-            >
-              <span
+            <div>
+              <img
                 style={{
-                  fontFamily: "var(--font-nunito)",
-                  fontWeight: 800,
-                  color: "var(--verde-escuro)",
-                  fontSize: 18,
+                  width: 50,
+                  height: 50,
                 }}
-              >
-                VA
-              </span>
+                src="/vila-animalle-logo-vfinal-colorida.png"
+              />
             </div>
             <div className="hidden sm:block">
               <span
