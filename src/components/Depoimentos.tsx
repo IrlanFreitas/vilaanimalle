@@ -3,7 +3,6 @@ import { motion } from "motion/react";
 import {
   ChevronLeft,
   ChevronRight,
-  MessageCircle,
   Star,
   Plus,
 } from "lucide-react";
@@ -256,15 +255,6 @@ export default function Depoimentos() {
                     }}
                   >
                     {t.name}
-                  </div>
-                  <div
-                    style={{
-                      fontFamily: "var(--font-opensans)",
-                      fontSize: 13,
-                      color: "rgba(255,255,255,0.6)",
-                    }}
-                  >
-                    {t.role}
                   </div>
                 </div>
               </div>
