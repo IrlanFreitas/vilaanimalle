@@ -34,7 +34,7 @@ export default function Footer() {
                   width: 50,
                   height: 50,
                 }}
-                src="/vila-animalle-logo-vfinal-colorida-removebg.png"
+                src="/icones/vila-animalle-logo-vfinal-colorida-removebg_1.webp"
                 title="Logo da vila animalle sem background"
                 alt="Logo da vila animalle sem background"
               />
@@ -382,7 +382,7 @@ export default function Footer() {
               }
             >
               <MessageCircle size={15} />
-              Fale pelo whatsapp
+              Fale pelo WhatsApp
             </a>
           </div>
         </div>

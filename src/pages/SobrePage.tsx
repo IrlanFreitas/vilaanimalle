@@ -103,7 +103,7 @@ export default function SobrePage() {
               className="!flex-[0_0_auto] w-full lg:!w-[40%]"
             >
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80"
+                src="/imagens/doutora_1.webp"
                 alt="Dra. Mariana Boulhosa - Médica Veterinária"
                 style={{ width: '100%', height: 420, objectFit: 'cover', borderRadius: 'var(--radius-xl)' }}
               />

@@ -289,7 +289,7 @@ export default function Depoimentos() {
 
         {/* Ver mais */}
         <div
-          style={{ width: "100%", display: `flex`, justifyContent: "center" }}
+          style={{ width: "100%", display: `flex`, justifyContent: "center", marginTop: 10 }}
         >
           <a
             href="https://www.google.com/search?sca_esv=761836ba98f04a06&sxsrf=ANbL-n5CS340l8sF6dHIOZUhCdYwV0-ywA:1775605232995&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOcycJcQXK-b8Z3tQwxTcKtN64HJhr50YqHjRWyS8LvuPv4pqR4tZOb7xI_Ba8MN2rFd8JsA21__JPg2B9heyP3S3qaCt-ER-g4vXMrydB9sR0r6FgA%3D%3D&q=Vila+Animalle+Coment%C3%A1rios&sa=X&ved=2ahUKEwiQ8bH59NyTAxUzALkGHSgODyMQ0bkNegQIMBAH&biw=1280&bih=683&dpr=2"

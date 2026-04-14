@@ -40,9 +40,6 @@ export default function Hero() {
                 marginBottom: 20,
               }}
             >
-              {/* Um porto seguro para a saúde e a{' '}
-              longevidade{' '}
-              do seu pet em Salvador. */}
 
               Vila Animalle Pet Care | <span style={{ color: 'var(--amarelo)' }}>Clínica veterinária</span> e pet shop na Vila Laura
             </motion.h1>
@@ -134,7 +131,7 @@ export default function Hero() {
               zIndex: 0,
             }} />
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80"
+              src="/imagens/dog1.jpeg"
               alt="Dra. Mariana Boulhosa cuidando de um pet na Vila Animalle"
               style={{
                 width: '100%',

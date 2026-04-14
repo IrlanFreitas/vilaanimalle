@@ -72,7 +72,9 @@ export default function Navigation() {
                   width: 50,
                   height: 50,
                 }}
-                src="/vila-animalle-logo-vfinal-colorida.png"
+                src="/icones/vila-animalle-logo-vfinal-colorida_1.webp"
+                title="Logo da Vila Animalle"
+                alt="Logo da Vila Animalle"
               />
             </div>
             <div className="hidden sm:block">
@@ -179,7 +181,7 @@ export default function Navigation() {
             aria-label="Agendar no whatsApp"
           >
             <MessageCircle size={16} />
-            Agendar no whatsapp
+            Agendar no WhatsApp
           </a>
 
           {/* Mobile: WhatsApp icon + hamburger */}

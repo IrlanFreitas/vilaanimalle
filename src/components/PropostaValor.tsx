@@ -16,7 +16,7 @@ const blocks = [
     highlight: 'Consultas sem pressa',
     highlightLabel: '',
     description: 'para que você possa tirar todas as suas dúvidas e se sentir segura. Aqui, o tutor também faz parte do processo de cuidado.',
-    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80',
+    image: '/imagens/doutora_1.webp',
     alt: 'Dra. Mariana conversando com tutora',
     reverse: true,
   },
@@ -25,7 +25,7 @@ const blocks = [
     highlight: 'Viva mais e melhor',
     highlightLabel: '',
     description: 'não tratamos apenas sintomas; trabalhamos para que seu pet viva mais e melhor ao seu lado. Medicina preventiva como filosofia de vida.',
-    image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80',
+    image: '/imagens/dog1.jpeg',
     alt: 'Pet saudável e feliz',
   },
 ]
