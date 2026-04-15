@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion } from "motion/react";
 import { Link } from "react-router";
 import { MapPin, Phone, Clock, MessageCircle } from "lucide-react";
@@ -8,20 +7,6 @@ const WHATSAPP_URL =
   "https://wa.me/5571982021139?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20Dra.%20Mariana%20da%20Vila%20Animalle.";
 
 export default function ContatoPage() {
-  const [form, setForm] = useState({
-    nome: "",
-    email: "",
-    telefone: "",
-    mensagem: "",
-    lgpd: false,
-  });
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.lgpd) return;
-    setSubmitted(true);
-  };
 
   return (
     <>
@@ -270,273 +255,14 @@ export default function ContatoPage() {
                       <Clock size={18} style={{ color: "var(--amarelo)" }} />
                     </div>
                     <div>
-                      <div
-                        style={{
-                          fontFamily: "var(--font-nunito)",
-                          fontWeight: 600,
-                          fontSize: 15,
-                          color: "var(--verde-escuro)",
-                          marginBottom: 2,
-                        }}
-                      >
-                        Horário
-                      </div>
-                      <div
-                        style={{
-                          fontFamily: "var(--font-opensans)",
-                          fontSize: 14,
-                          color: "var(--ink-70)",
-                          lineHeight: 1.6,
-                        }}
-                      >
-                        Segunda a Sexta
-                        <br />
-                        Horários flexíveis para sua rotina
-                      </div>
+                      Horário de funcionamento:
+                      <br />
+                      Segunda a Sexta: 08:00–12:00, 13:00–17:00
+                      <br />
+                      Sábados: 08:00–12:00
                     </div>
                   </li>
                 </ul>
-              </div>
-
-              {/* Formulário de captura */}
-              <div>
-                <h2
-                  style={{
-                    fontFamily: "var(--font-nunito)",
-                    fontWeight: 700,
-                    fontSize: 20,
-                    color: "var(--verde-escuro)",
-                    marginBottom: 20,
-                  }}
-                >
-                  Envie uma mensagem
-                </h2>
-                {submitted ? (
-                  <div
-                    style={{
-                      background: "var(--verde-escuro-light)",
-                      border: "1px solid var(--verde-acento)",
-                      borderRadius: "var(--radius-lg)",
-                      padding: "24px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <div style={{ fontSize: 32, marginBottom: 8 }}>✅</div>
-                    <p
-                      style={{
-                        fontFamily: "var(--font-nunito)",
-                        fontWeight: 700,
-                        fontSize: 18,
-                        color: "var(--verde-escuro)",
-                      }}
-                    >
-                      Mensagem enviada com sucesso!
-                    </p>
-                    <p
-                      style={{
-                        fontFamily: "var(--font-opensans)",
-                        fontSize: 15,
-                        color: "var(--ink-70)",
-                        marginTop: 8,
-                      }}
-                    >
-                      Entraremos em contato em breve. Ou se preferir, fale
-                      diretamente pelo WhatsApp!
-                    </p>
-                  </div>
-                ) : (
-                  <form
-                    onSubmit={handleSubmit}
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: 16,
-                    }}
-                  >
-                    {[
-                      {
-                        id: "nome",
-                        label: "Nome *",
-                        type: "text",
-                        placeholder: "Seu nome completo",
-                        required: true,
-                      },
-                      {
-                        id: "email",
-                        label: "E-mail *",
-                        type: "email",
-                        placeholder: "seu@email.com",
-                        required: true,
-                      },
-                      {
-                        id: "telefone",
-                        label: "Telefone",
-                        type: "tel",
-                        placeholder: "(71) 99999-9999",
-                        required: false,
-                      },
-                    ].map((field) => (
-                      <div key={field.id}>
-                        <label
-                          style={{
-                            fontFamily: "var(--font-opensans)",
-                            fontSize: 14,
-                            fontWeight: 600,
-                            color: "var(--verde-escuro)",
-                            display: "block",
-                            marginBottom: 6,
-                          }}
-                        >
-                          {field.label}
-                        </label>
-                        <input
-                          type={field.type}
-                          placeholder={field.placeholder}
-                          required={field.required}
-                          value={form[field.id as keyof typeof form] as string}
-                          onChange={(e) =>
-                            setForm((f) => ({
-                              ...f,
-                              [field.id]: e.target.value,
-                            }))
-                          }
-                          style={{
-                            width: "100%",
-                            padding: "12px 14px",
-                            border: "1px solid var(--ink-12)",
-                            borderRadius: "var(--radius-sm)",
-                            fontFamily: "var(--font-opensans)",
-                            fontSize: 15,
-                            color: "var(--verde-escuro)",
-                            background: "var(--white)",
-                            outline: "none",
-                            transition: "border-color 200ms",
-                          }}
-                          onFocus={(e) =>
-                            (e.target.style.borderColor = "var(--verde-acento)")
-                          }
-                          onBlur={(e) =>
-                            (e.target.style.borderColor = "var(--ink-12)")
-                          }
-                        />
-                      </div>
-                    ))}
-                    <div>
-                      <label
-                        style={{
-                          fontFamily: "var(--font-opensans)",
-                          fontSize: 14,
-                          fontWeight: 600,
-                          color: "var(--verde-escuro)",
-                          display: "block",
-                          marginBottom: 6,
-                        }}
-                      >
-                        Mensagem *
-                      </label>
-                      <textarea
-                        placeholder="Como podemos ajudar você e seu pet?"
-                        required
-                        rows={4}
-                        value={form.mensagem}
-                        onChange={(e) =>
-                          setForm((f) => ({ ...f, mensagem: e.target.value }))
-                        }
-                        style={{
-                          width: "100%",
-                          padding: "12px 14px",
-                          border: "1px solid var(--ink-12)",
-                          borderRadius: "var(--radius-sm)",
-                          fontFamily: "var(--font-opensans)",
-                          fontSize: 15,
-                          color: "var(--verde-escuro)",
-                          background: "var(--white)",
-                          outline: "none",
-                          resize: "vertical",
-                          transition: "border-color 200ms",
-                        }}
-                        onFocus={(e) =>
-                          (e.target.style.borderColor = "var(--verde-acento)")
-                        }
-                        onBlur={(e) =>
-                          (e.target.style.borderColor = "var(--ink-12)")
-                        }
-                      />
-                    </div>
-
-                    {/* LGPD */}
-                    <label
-                      style={{
-                        display: "flex",
-                        gap: 10,
-                        alignItems: "flex-start",
-                        cursor: "pointer",
-                      }}
-                    >
-                      <input
-                        type="checkbox"
-                        required
-                        checked={form.lgpd}
-                        onChange={(e) =>
-                          setForm((f) => ({ ...f, lgpd: e.target.checked }))
-                        }
-                        style={{
-                          marginTop: 3,
-                          accentColor: "var(--verde-acento)",
-                        }}
-                      />
-                      <span
-                        style={{
-                          fontFamily: "var(--font-opensans)",
-                          fontSize: 13,
-                          color: "var(--ink-70)",
-                          lineHeight: 1.5,
-                        }}
-                      >
-                        Aceito a{" "}
-                        <a
-                          href="#"
-                          style={{
-                            color: "var(--verde-acento)",
-                            textDecoration: "underline",
-                          }}
-                        >
-                          Política de Privacidade
-                        </a>{" "}
-                        e consinto com o tratamento dos meus dados para fins de
-                        contato. *
-                      </span>
-                    </label>
-
-                    <button
-                      type="submit"
-                      style={{
-                        border: "2px solid var(--verde-escuro)",
-                        background: "transparent",
-                        color: "var(--verde-escuro)",
-                        fontFamily: "var(--font-nunito)",
-                        fontWeight: 700,
-                        fontSize: 15,
-                        padding: "12px 24px",
-                        borderRadius: "var(--radius-sm)",
-                        cursor: "pointer",
-                        transition: "all 200ms",
-                        alignSelf: "flex-start",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.background =
-                          "var(--verde-escuro)";
-                        e.currentTarget.style.color = "var(--white)";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.background = "transparent";
-                        e.currentTarget.style.color = "var(--verde-escuro)";
-                      }}
-                    >
-                      Enviar mensagem
-                    </button>
-                  </form>
-                )}
               </div>
             </motion.div>
 
@@ -609,9 +335,11 @@ export default function ContatoPage() {
                   <span
                     style={{ fontWeight: 600, color: "var(--verde-acento)" }}
                   >
-                    Segunda a Sexta
-                  </span>{" "}
-                  — Horários flexíveis
+                    Horário de funcionamento:
+                  </span>
+                  <br />
+                  Segunda a Sexta: 08:00–12:00, 13:00–17:00 <br /> 
+                  Sábados: 08:00–12:00
                 </p>
               </div>
             </motion.div>

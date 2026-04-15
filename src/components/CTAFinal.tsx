@@ -36,7 +36,9 @@ export default function CTAFinal() {
             margin: '0 auto 32px',
           }}>
             Endereço: R. Dr. Mário Rego dos Santos, 921 - Lojas A e B - Vila Laura, Salvador - BA, 40270-010 <br/>
-            Horário de funcionamento: Segunda a Sexta, em horários flexíveis para sua rotina.
+            Horário de funcionamento: <br/>
+            Segunda a Sexta, 08:00–12:00, 13:00–17:00 <br/>
+            Sábados, 08:00–12:00
           </p>
           <a
             href={WHATSAPP_URL}

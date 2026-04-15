@@ -349,9 +349,10 @@ export default function Footer() {
                     lineHeight: 1.5,
                   }}
                 >
-                  Segunda a Sexta
+                  Horário de funcionamento:
                   <br />
-                  Horários flexíveis
+                  Segunda a Sexta: <br/>08:00–12:00, 13:00–17:00 <br/>
+                  Sábados: 08:00–12:00
                 </span>
               </li>
             </ul>

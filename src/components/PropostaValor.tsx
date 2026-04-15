@@ -16,7 +16,7 @@ const blocks = [
     highlight: 'Consultas sem pressa',
     highlightLabel: '',
     description: 'para que você possa tirar todas as suas dúvidas e se sentir segura. Aqui, o tutor também faz parte do processo de cuidado.',
-    image: '/imagens/doutora_1.webp',
+    image: '/imagens/dotora_1.webp',
     alt: 'Dra. Mariana conversando com tutora',
     reverse: true,
   },

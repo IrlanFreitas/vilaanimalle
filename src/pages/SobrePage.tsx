@@ -44,7 +44,7 @@ function AnimatedCounter({ target, duration = 2000 }: { target: number; duration
 const galleryImages = [
   { src: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=80', alt: 'Pet feliz na Vila Animalle' },
   { src: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=400&q=80', alt: 'Atendimento veterinário' },
-  { src: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80', alt: 'Consulta humanizada' },
+  { src: '/imagens/doutora_2.webp', alt: 'Consulta humanizada' },
   { src: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=400&q=80', alt: 'Clínica veterinária' },
   { src: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=80', alt: 'Pet saudável' },
   { src: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=400&q=80', alt: 'Banho e tosa' },
