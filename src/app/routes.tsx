@@ -4,7 +4,6 @@ import RootLayout from '../layouts/RootLayout'
 
 const Home = lazy(() => import('../pages/Home'))
 const ServicosPage = lazy(() => import('../pages/ServicosPage'))
-const ProdutosPage = lazy(() => import('../pages/ProdutosPage'))
 const SobrePage = lazy(() => import('../pages/SobrePage'))
 const ContatoPage = lazy(() => import('../pages/ContatoPage'))
 // const BlogPage = lazy(() => import('../pages/BlogPage'))
@@ -41,7 +40,7 @@ export const routes: RouteObject[] = [
       },
       {
         path: 'produtos',
-        element: <Suspense fallback={<PageLoader />}><ProdutosPage /></Suspense>,
+        element: <Suspense fallback={<PageLoader />}></Suspense>,
       },
       {
         path: 'sobre',

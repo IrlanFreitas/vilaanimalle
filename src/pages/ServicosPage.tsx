@@ -234,8 +234,6 @@ export default function ServicosPage() {
           </div>
         </div>
       </section>
-
-      <CTAFinal />
     </>
   )
 }

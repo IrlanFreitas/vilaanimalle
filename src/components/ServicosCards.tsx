@@ -27,8 +27,8 @@ const services = [
     title: 'Dermatologia e linha natural exclusiva',
     description: 'Tratamento especializado para pets com problemas de pele e otites, utilizando uma linha natural exclusiva desenvolvida para oferecer alívio e cura sem agredir o organismo.',
     ctaText: 'Conhecer a linha natural',
-    ctaHref: '/produtos',
-    external: false,
+    ctaHref: 'https://www.petz.com.br/parceiro/dramarianaboulhosa',
+    external: true,
   },
 ]
 

@@ -105,7 +105,7 @@ export default function SobrePage() {
               <ImageWithFallback
                 src="/imagens/doutora_1.webp"
                 alt="Dra. Mariana Boulhosa - Médica Veterinária"
-                style={{ width: '100%', height: 420, objectFit: 'cover', borderRadius: 'var(--radius-xl)' }}
+                style={{ width: '100%', height: 420, objectFit: 'cover', borderRadius: 'var(--radius-xl)' , objectPosition: 'top'}}
               />
             </motion.div>
           </div>
@@ -243,7 +243,7 @@ export default function SobrePage() {
       </section>
 
       {/* Galeria */}
-      <section style={{ background: 'var(--off-white)' }} className="py-16 sm:py-20">
+      {/* <section style={{ background: 'var(--off-white)' }} className="py-16 sm:py-20">
         <div className="mx-auto px-4 sm:px-6 md:px-10 lg:px-0" style={{ maxWidth: '1200px' }}>
           <motion.div
             initial={{ opacity: 0, y: 28 }}
@@ -277,7 +277,7 @@ export default function SobrePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA WhatsApp */}
       <section style={{ background: 'var(--verde-escuro-light)' }} className="py-12">
@@ -304,8 +304,6 @@ export default function SobrePage() {
           </a>
         </div>
       </section>
-
-      <CTAFinal />
     </>
   )
 }

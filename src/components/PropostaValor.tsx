@@ -16,9 +16,10 @@ const blocks = [
     highlight: 'Consultas sem pressa',
     highlightLabel: '',
     description: 'para que você possa tirar todas as suas dúvidas e se sentir segura. Aqui, o tutor também faz parte do processo de cuidado.',
-    image: '/imagens/dotora_1.webp',
+    image: '/imagens/dotora_4.webp',
     alt: 'Dra. Mariana conversando com tutora',
     reverse: true,
+    top: true
   },
   {
     title: 'Foco em longevidade',
@@ -84,6 +85,7 @@ export default function PropostaValor() {
                     objectFit: 'cover',
                     borderRadius: 'var(--radius-xl)',
                     display: 'block',
+                    objectPosition: block.top ? 'top' : 'initial'
                   }}
                 />
               </div>
